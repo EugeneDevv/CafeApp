@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_Favourites"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Favourites" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Cart" />
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Orders" />
+
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Help" />
+
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Sign Out" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:iconTint="@android:color/white"
+            android:title="Share" />
+
+    </group>
+
+
+
+</menu>
